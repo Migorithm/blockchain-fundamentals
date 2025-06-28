@@ -29,4 +29,17 @@ Four properties of SHA-256:
 - Avalanche effect: Changing one character of the data, completely changes the hash and makes it unrecognizable.
 - Withstand collision: Collision in hashing means the algorithm produces the same hash for two different values. SHA-256 has an extremely low probability of collision
 
-These SHA-256 properties explain why blockchains are the way they are. 
+These SHA-256 properties explain why blockchains are the way they are.
+
+
+## Transactions 
+Let's take an example transaction fields from Bitcoin
+- Version: This specifies which rules the transaction follows
+- Input counter:  This is the number of inputs in the transaction (this is just a count)
+- Inputs: This is the actual input data
+- Output counter: This is similar to the input counter, but it’s for keeping a count of the transactions’ output
+- Output: This is the actual output data from the transaction
+- Blocktime: This is simply a Unix timestamp that records when the transaction happened.
+
+Initially, blockchains were designed to record financial transactions. But transactions in the context of blockchains means:
+"anything that changes the state of the blockchain"
