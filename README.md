@@ -43,3 +43,13 @@ Let's take an example transaction fields from Bitcoin
 
 Initially, blockchains were designed to record financial transactions. But transactions in the context of blockchains means:
 "anything that changes the state of the blockchain"
+
+
+## Distributed system and decentralization
+Tranditional distributed systems had nodes and node recovery. It may sound just the same as decentralization. 
+However, the former one still belongs to the centralized authority or the company. With decentralized systems, the node can be owned by
+another entity, person or a company other than the company that developed the blockchain.
+
+In fact, having nodes owned by different companies is encouraged in blockchain network. This nodes are usually monetized to stay in the network
+and to uphold the security of the network.
+
