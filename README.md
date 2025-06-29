@@ -66,3 +66,13 @@ The following criteria vary from blockchain to blockchain in terms of the follow
 - The consensus mechanisms
 
 Among these, consensus mechanism is something that is most often innovated upon.
+
+
+## Consensus
+Let's understand the following concepts:
+- Proof of work (PoW): Nodes need to solve a particular cryptography problem. The node with the highest processing power is able to solve faster than others. So, this essentially increases electricity consumption and not considered efficient - Examples are Bitcoin and Dogecoin. 
+
+- Proof of authority(PoA): transactions and blocks are verified by identified validators, typically chosen due to their reputation or authority. Unlike PoW, PoA offers efficiency by requiring validators to be accountable for their actions. Commonly used in private or consortium blockchains. However, it is centralized in its nature so it may raise concerns reharding censorship resistance.
+
+- Proof of stake: nodes need to buy **stakes** in the network. Basically, they buy the cryptocurrency native to the network. Only a few nodes with a majority stake get to participate in the mining activity in some cases. This is highly energy efficient and this is the reason why Ethereum switched from PoW to PoS. But still this is less decentralized. The main benefit of PoS is that since nodes have a stake in the system, they are de-incentivized to add unscrupulous blocks to the chain. When a node tries to add the wrong block, the rest of the nodes do not validate this block, and if such a scenario takes place, these nodes are then penalized where the amount of native cryptocurrency owned by the node that is taken away can differ depending on the seriousness of the violation. Generally, this penalty entails a partial loss of funds rather than a complete forfeiture of all holdings. Some examples are Cardano, Ethereum, and Polkadot.
+
