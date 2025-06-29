@@ -57,7 +57,7 @@ and to uphold the security of the network.
 ## Nodes, validators, collators
 Once a new block(set of transactions) is added, which is known as mining, this event is advertised to the entire network.
 The rest of the nodes in the network now act as validators that confirm the outputs of the transactions. Once it reaches consensus, 
-that block becoems "right" one to be added to the chain. Another block could be listening to all the new transactions and those tranasctions could be then collated onto a block.
+that block becoems "right" one to be added to the chain. Another node could be listening to all the new transactions and those tranasctions could be then collated onto a block.
 
 The following criteria vary from blockchain to blockchain in terms of the following:
 - The number of transactions that the block will store
