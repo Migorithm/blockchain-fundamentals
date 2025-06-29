@@ -86,3 +86,8 @@ This suggests that you cannot get the hash "smartly."
 
 ## Forking
 We learned how SHA-256's properties provide immutability for blockchains. This means all transactions are immutable and cannot be reversed unless actual, new transactions are made that counteract the first one. 
+
+Or, the only way to reverse previous transaction is to create an entire copy of the chain where the particular transaction didn't take place. This process is called **forking**.
+**Forking** can be used when rules for the blockchain need to be modified.(Some blockchains such as Polkadot have invented mechanisms to have forkless upgrades.)
+
+Most of the time, Forks occur intentionally, but it can happen unintentionally when multiple miners discover a block simultaneously. The reconcilation happens as additional blocks are appended, making one chain longer than the others. In this case, the network disregards blocks that are not part of the longest chain, labeling them as "orphaned."
