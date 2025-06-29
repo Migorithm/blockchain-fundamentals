@@ -53,3 +53,16 @@ another entity, person or a company other than the company that developed the bl
 In fact, having nodes owned by different companies is encouraged in blockchain network. This nodes are usually monetized to stay in the network
 and to uphold the security of the network.
 
+
+## Nodes, validators, collators
+Once a new block(set of transactions) is added, which is known as mining, this event is advertised to the entire network.
+The rest of the nodes in the network now act as validators that confirm the outputs of the transactions. Once it reaches consensus, 
+that block becoems "right" one to be added to the chain. Another block could be listening to all the new transactions and those tranasctions could be then collated onto a block.
+
+The following criteria vary from blockchain to blockchain in terms of the following:
+- The number of transactions that the block will store
+- The mechanism that nodes use to collate the transactions (time-based or number-based)
+- The validation mechanism
+- The consensus mechanisms
+
+Among these, consensus mechanism is something that is most often innovated upon.
