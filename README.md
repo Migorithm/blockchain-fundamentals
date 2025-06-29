@@ -98,3 +98,15 @@ Every blockchain follows a unique way of governance, but, in general, blockchain
 Each governance token is equal to one vote, so this leads to a very fair and just system, as the holders with more stake in the network get more influence.
 This may lead to "whale problem" where some network participants end up holding most of the tokens. In most cases whales are the founding team, and votes are cast to push
 agenda of the founding team.
+
+
+## Tokens VS coins and ICOs
+Cryptocurrencies are created to incentivize the nodes which devotes their resources - these native currencies are considered coins. 
+Tokens on the other hand don't need an underlying blockchain and can be used by the following:
+- Technology projects to raise capital
+  - instead of raising capital from traditional venture capitalists, such tech projects can leverage initial coin offerings (ICOs)
+- Technology companies to represent digital assets 
+  - Smart contract to indicate property ownership, mortgates and digital identity
+  - Non-fungible tokens(NFTs) to represent art, music, in-game assets
+- Corporations, institutions, and individuals to represent a real-world resource in the digital world
+  - Real estate essets, crops, medicinesa and so on can be tokenized in the digital world and represented on the blockchain.
