@@ -91,3 +91,10 @@ Or, the only way to reverse previous transaction is to create an entire copy of 
 **Forking** can be used when rules for the blockchain need to be modified.(Some blockchains such as Polkadot have invented mechanisms to have forkless upgrades.)
 
 Most of the time, Forks occur intentionally, but it can happen unintentionally when multiple miners discover a block simultaneously. The reconcilation happens as additional blocks are appended, making one chain longer than the others. In this case, the network disregards blocks that are not part of the longest chain, labeling them as "orphaned."
+
+## Governance
+Every blockchain follows a unique way of governance, but, in general, blockchains are governed by token holders that can be users, developers, investors, the founding team, or nodes. Governance tokens are issued to reward the loyalty of token holders and are usually issued when they have a high stake in the network. 
+
+Each governance token is equal to one vote, so this leads to a very fair and just system, as the holders with more stake in the network get more influence.
+This may lead to "whale problem" where some network participants end up holding most of the tokens. In most cases whales are the founding team, and votes are cast to push
+agenda of the founding team.
